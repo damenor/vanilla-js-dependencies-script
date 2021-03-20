@@ -1,0 +1,21 @@
+#result {
+  margin: 1rem;
+}
+
+#result #result__title {
+  padding: 1rem;
+  color: var(--color-primary);
+  font-size: 3rem;
+  text-align: center;
+}
+
+#result .result__item h3 {
+  padding: 0.5rem;
+}
+
+#result .result__item code span {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  cursor: pointer;
+}

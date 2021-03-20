@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  font-family: var(--font-family);
+}
+
+*:focus{
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-primary); 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-primary); 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+code {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  padding-right: 3rem;
+  color: var(--color-grey);
+  font-family: Consolas,"courier new";
+  background-color: #f1f1f1;
+}
